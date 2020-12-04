@@ -1,0 +1,46 @@
+h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 21px;
+    text-align: center;
+    color: #EDD700;
+}
+
+body {
+    height: auto;
+    background-image: url("../../assets/background.jpg");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    flex-direction: row;;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    display: flex;
+}
+
+.opacity {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box {
+    width: 25%;
+    height: 78vh;
+    background: rgba(108, 108, 108, 0.70);
+    align-self: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
